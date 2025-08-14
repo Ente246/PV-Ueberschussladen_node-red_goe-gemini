@@ -1,0 +1,27 @@
+input_boolean:
+  ueberschussladen:
+    name: "Überschussladen"
+  wallbox_vorrang:
+    name: "Wallbox Vorrang"
+  only_pv:
+    name: "Only PV"
+  ioniq5:
+    name: "Ioniq5"
+  spring:
+    name: "Spring"
+
+input_select:
+  ueberschuss_ladeart:
+    name: "Überschuss Ladeart"
+    options: ["1-phasig", "3-phasig", "Auto"]
+  ladeziel_dropdown:
+    name: "Ladeziel Dropdown"
+    options: ["50", "80", "100"]
+
+input_number:
+  ladeziel:
+    name: "Ladeziel"
+    min: 0
+    max: 100
+    step: 1
+    unit_of_measurement: "%"
