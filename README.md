@@ -104,3 +104,6 @@ Fehler gefunden oder Verbesserungsvorschlag?
 
 ![Helfer_uebersicht](https://github.com/user-attachments/assets/8a11a0a3-d5b8-4361-9d7a-4b0f7e549980)
 
+<img width="2560" height="1094" alt="Node_Teil_1" src="https://github.com/user-attachments/assets/94e74816-6f06-4e8f-ac53-61606ee48f49" />
+<img width="1592" height="1123" alt="Node_Teil_2" src="https://github.com/user-attachments/assets/feb19f35-3556-43c1-8b45-6d5e3d93715f" />
+
