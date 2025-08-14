@@ -80,5 +80,12 @@ Der Flow berücksichtigt unterschiedliche Datenquellen (mit/ohne Akkupriorisieru
 {{ ueberschuss | round(1) }}
 ```
 
+### Anpassungen vor dem Einsatz
+- [ ] Eigene go-eCharger-Entity-IDs in `templates.yaml` anpassen (`sensor.go_echarger_247529_nrg_12`)
+- [ ] PV-Leistungs-Sensor (`sensor.total_dc_power`) anpassen
+- [ ] Hausverbrauch-Sensor (`sensor.load_power`) anpassen
+- [ ] Falls vorhanden: Batterie-Ladeleistung (`sensor.battery_charging_power`) anpassen
+- [ ] Ladeleistungsgrenzen und Zeitbedingungen im Node-RED-Flow anpassen (z. B. 4 000 W / 2 Minuten)
+- [ ] Min/Max Ampere im Flow prüfen (6–16 A)
 
 
