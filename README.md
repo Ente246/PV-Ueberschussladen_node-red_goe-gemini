@@ -23,7 +23,7 @@ Der Flow berücksichtigt unterschiedliche Datenquellen (mit/ohne Akkupriorisieru
 
 ## Benötigte Home Assistant Entitäten
 
-### 1. go-eCharger-Entitäten (IDs anpassen!)
+### 1. go-eCharger-Entitäten („Entitäten mit …247529… bitte auf eigene go‑eCharger‑IDs anpassen.“)
 | Entität | Typ | Beschreibung |
 |---------|-----|--------------|
 | `binary_sensor.go_echarger_247529_car` | binary_sensor | Auto angesteckt |
