@@ -102,3 +102,5 @@ Der Flow berücksichtigt unterschiedliche Datenquellen (mit/ohne Akkupriorisieru
 Fehler gefunden oder Verbesserungsvorschlag?  
 ➡ Bitte im [Issue-Bereich](../../issues) melden oder Pull Request erstellen.
 
+![Helfer_uebersicht](https://github.com/user-attachments/assets/8a11a0a3-d5b8-4361-9d7a-4b0f7e549980)
+
