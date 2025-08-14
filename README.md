@@ -4,7 +4,9 @@
 
 Dieses Projekt steuert eine go-eCharger-Wallbox dynamisch auf Basis des PV-Überschusses.  
 Es werden Ladeampere in Echtzeit angepasst, optional zwischen 1- und 3-phasigem Laden umgeschaltet und der **Only-PV-Modus** unterstützt.  
-Der Flow berücksichtigt unterschiedliche Datenquellen (mit/ohne Akkupriorisierung) und kann bei mehreren Fahrzeugen automatisch umschalten.
+Der Flow berücksichtigt unterschiedliche Datenquellen (mit/ohne Akkupriorisierung) und kann bei mehreren Fahrzeugen automatisch umschalten.  
+
+Meine Goe Wallbox muss nicht entsperrt werden, da sie in einer Garage hängt.
 
 ---
 
