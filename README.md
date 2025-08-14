@@ -111,3 +111,5 @@ Fehler gefunden oder Verbesserungsvorschlag?
 <img width="2560" height="1094" alt="Node_Teil_1" src="https://github.com/user-attachments/assets/94e74816-6f06-4e8f-ac53-61606ee48f49" />
 <img width="1592" height="1123" alt="Node_Teil_2" src="https://github.com/user-attachments/assets/feb19f35-3556-43c1-8b45-6d5e3d93715f" />
 
+<img width="548" height="495" alt="UI" src="https://github.com/user-attachments/assets/d9f37ff9-1a9b-4877-8f78-d0dd32b0f08f" />
+
