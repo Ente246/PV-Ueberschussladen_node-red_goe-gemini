@@ -62,7 +62,7 @@ Der Flow berücksichtigt unterschiedliche Datenquellen (mit/ohne Akkupriorisieru
 ### 4. Template-Sensoren
 
 #### `sensor.uberschuss_wb`
-```jinja
+jinja
 {% set pv = states('sensor.total_dc_power') | float %}
 {% set haus = states('sensor.load_power') | float %}
 {% set batterie = states('sensor.battery_charging_power') | float %}
