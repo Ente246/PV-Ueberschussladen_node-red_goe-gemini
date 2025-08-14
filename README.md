@@ -70,11 +70,5 @@ Der Flow berücksichtigt unterschiedliche Datenquellen (mit/ohne Akkupriorisieru
 {% set ueberschuss = pv - haus - batterie + wallbox %}
 {{ ueberschuss | round(1) }}
 
-#### `sensor.uberschuss_wb_akku`
-```jinja
-{% set pv = states('sensor.total_dc_power') | float %}
-{% set haus = states('sensor.load_power') | float %}
-{% set wallbox = states('sensor.go_echarger_247529_nrg_12') | float %}
-{% set ueberschuss = pv - haus + wallbox %}
-{{ ueberschuss | round(1) }}
+
 
