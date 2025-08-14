@@ -1,0 +1,24 @@
+template:
+  - sensor:
+      - name: "Überschuss+WB"
+        unique_id: pv_ueberschuss_plus_wb
+        unit_of_measurement: "W"
+        device_class: power
+        state_class: measurement
+        state: >
+          {% set pv = states('sensor.total_dc_power') | float %}
+          {% set haus = states('sensor.load_power') | float %}
+          {% set batterie = states('sensor.battery_charging_power') | float %}
+          {% set wallbox = states('sensor.go_echarger_247529_nrg_12') | float %}
+          {{ (pv - haus - batterie + wallbox) | round(1) }}
+
+      - name: "Überschuss+WB+Akku"
+        unique_id: pv_ueberschuss_plus_wb_plus_akku
+        unit_of_measurement: "W"
+        device_class: power
+        state_class: measurement
+        state: >
+          {% set pv = states('sensor.total_dc_power') | float %}
+          {% set haus = states('sensor.load_power') | float %}
+          {% set wallbox = states('sensor.go_echarger_247529_nrg_12') | float %}
+          {{ (pv - haus + wallbox) | round(1) }}
