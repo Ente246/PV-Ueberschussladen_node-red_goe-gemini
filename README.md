@@ -1,4 +1,4 @@
-# PV-berschussladen---node-red---goe-gemini
+# PV-berschussladen node-red goe-gemini
 
 # PV-Überschussladen mit go-eCharger und Node-RED
 
