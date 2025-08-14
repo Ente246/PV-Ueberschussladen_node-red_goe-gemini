@@ -89,3 +89,16 @@ Der Flow berücksichtigt unterschiedliche Datenquellen (mit/ohne Akkupriorisieru
 - [ ] Min/Max Ampere im Flow prüfen (6–16 A)
 
 
+### Funktionstest nach Installation
+1. Prüfen, ob alle Helfer und Sensoren in Home Assistant sichtbar sind.
+2. `sensor.uberschuss_wb` zeigt Werte (W) an.
+3. `input_boolean.uberschussladen` einschalten → Wallbox setzt auf 6 A.
+4. Simulierten PV-Überschuss erzeugen → Ampere steigen in 1 A-Schritten.
+5. Über 4 kW für 2 Minuten → Phasenmodus „Force three phases“.
+6. Unter 4 kW für 5 Minuten → zurück auf „Force single phase“.
+
+
+### Mitmachen
+Fehler gefunden oder Verbesserungsvorschlag?  
+➡ Bitte im [Issue-Bereich](../../issues) melden oder Pull Request erstellen.
+
