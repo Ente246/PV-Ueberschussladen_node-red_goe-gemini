@@ -19,9 +19,9 @@ Der Flow berücksichtigt unterschiedliche Datenquellen (mit/ohne Akkupriorisieru
   - **Überschuss+WB+Akku** (Akku wird ignoriert → Vorrang für Wallbox)
 - **Ladeziel per Dropdown setzen** (`input_select.ladeziel_dropdown` → `input_number.ladeziel`)
 
-Ich Unterscheide zwischen 1 & 3 Phasig, benannt sind diese Punkte Aktuell nach meinen Fahrzeugen, kann gerne Angepasst werden :).
-Spring = 1-Phasig.
-Ioniq5 = 3-Phasig.
+Ich Unterscheide zwischen 1 & 3 Phasig, benannt sind diese Punkte Aktuell nach meinen Fahrzeugen, kann gerne Angepasst werden :)  
+Spring = 1-Phasig  
+Ioniq5 = 3-Phasig
 
 ---
 
